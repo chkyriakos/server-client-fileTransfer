@@ -11,12 +11,17 @@ The server is able to serve multiple clients at the same time with the use of mu
 ### Arguments
 #### Server
 port: Port number that the server listens to.
+<br >
 thread_pool_size: Number of worker threads.
+<br >
 queue_size: Size of the execution queue.
+<br >
 block_size: The size of bytes send through sockets each time.
 #### Client
 server_ip: Server's IP.
+<br >
 server_port: The port that the server listens to.
+<br >
 directory: The filepath to the directory to be copied and send by the server.
 
 To compile:
